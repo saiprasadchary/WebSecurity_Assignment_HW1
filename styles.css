@@ -1,0 +1,160 @@
+/* styles.css */
+
+body{
+    background-image: url('Backgroundimg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: x-large;
+    font-family: sans-serif;   
+}
+.section2{
+    justify-content: space-evenly;
+    display: flex;
+}
+.section2{
+    text-align: center;
+   
+}
+
+#p1, #firsthead {
+     text-align: center;
+     color: black;
+}
+#img1{
+        display: block;   
+         height: 190px;
+         /* text-align: "center"; */
+         width: 150px;
+         border-radius: 100%;
+         margin: auto;
+}
+.cont1{
+    text-align: center; 
+}
+
+#name{
+    text-align: center;
+    color: black;
+}
+/* #span1{
+    resize:100 px;
+} */
+
+table{
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 50%;
+    border: 0; 
+}
+
+table.zebra-table
+{
+    margin-left: auto;
+    margin-right: auto;
+}
+ 
+  /* Zebra-striping */
+table tr:nth-child(even) {
+    background-color: #b9a5a3;
+}
+  
+.zebra-table th,
+.zebra-table td {
+    text-align:center;
+    color: black;
+    padding: 8px;
+    text-align: left;
+}
+
+#section2{
+    color: rgb(251, 248, 251);
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    padding: 20px 20px 20px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-evenly;
+ 
+}
+
+.Hobbieswithflex{  
+    background-color: rgb(68, 87, 26);
+    width: 500px;
+    height: 260px;
+    opacity: 0.7;
+    border: 2px;
+    border-radius: 15px;
+    padding: 5px;
+    justify-content: space-between;
+    color: rgb(240, 230, 230);
+    opacity: 0.7;
+    text-align: center;
+    box-shadow: 5px 10px #888888;
+}
+#name{
+    color: rgb(201, 119, 20);
+}
+
+#head1{
+    text-align: center;
+}
+.Hobbies{
+    background-color: rgb(68, 87, 26);
+    width: 500px;
+    height: 260px;
+    opacity: 0.7;
+    border: 2px;
+    border-radius: 15px;
+    padding: 5px;
+    justify-content: space-between;
+    color: rgb(240, 230, 230);
+    opacity: 0.7;
+    text-align: center;
+    box-shadow: 5px 10px #888888;
+
+    }
+
+    ul.Un_List{
+        display: inline-block;
+        text-align: left;
+    }   
+
+h2 {
+    color: black;
+}
+
+.section1{
+    text-align:center   
+}
+
+#QuoteDiv{
+    margin: 50px;
+    background-color: rgb(223, 215, 220);
+    border: 1px solid rgb(214, 203, 214);
+    opacity: 0.6;
+    text-align: center;
+    box-shadow: 5px 10px #888888;
+}
+.Hob{
+    margin-left: 15px;
+    color: white;
+}
+#section2{
+    background-color: #b9a5a3;
+}
+
+#box
+{
+    justify-content: space-evenly;
+    display:flex;
+}
+a:hover{
+    color: green;
+    text-decoration: none;
+}
+span{
+    color: rgb(244, 16, 16);
+}
+
+
